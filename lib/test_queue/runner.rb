@@ -11,6 +11,7 @@ module TestQueue
       @num = num
       @start_time = Time.now
       @output = ''
+      @stats = {}
     end
 
     def lines
